@@ -1,13 +1,14 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+ my_flowers=["Roses", "Tulips", "Morning Glory", "Tiger Lily"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  my_flowers("my_flowers" , "Carnation").push
+  puts my_flowers.inspect
 end
 
 def add_element_to_start_of_array(array, element)
